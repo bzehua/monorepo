@@ -6,15 +6,25 @@ node_modules
 dist
 build
 
-# IDE
+# IDE - 包含项目配置，排除用户特定设置
 .vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
 !.vscode/extensions.json
-.idea
+
+.idea/*
+!.idea/prettier.xml
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+
+# IDE用户特定文件
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+.vscode/settings.json.user
 
 # Logs
 logs

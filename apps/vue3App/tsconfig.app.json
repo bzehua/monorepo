@@ -1,0 +1,21 @@
+{
+  "extends": ["../../tsconfig.base.json", "@vue/tsconfig/tsconfig.dom.json"],
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+
+    // Vue应用特定配置
+    "allowJs": true,
+    "noEmit": true,
+
+    // 严格模式配置（继承基础配置并增强）
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noUncheckedSideEffectImports": true,
+
+    // 覆盖基础配置中的某些设置以适配Vue
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
+}

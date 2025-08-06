@@ -1,0 +1,34 @@
+# 构建输出
+dist/
+build/
+coverage/
+
+# 依赖
+node_modules/
+
+# 配置文件
+.eslintrc.js
+*.config.js
+*.config.ts
+
+# 声明文件
+*.d.ts
+
+# 静态资源
+public/
+assets/
+
+# 日志文件
+*.log
+
+# 临时文件
+.tmp/
+.temp/
+
+# IDE
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db 

@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import { add, subtract } from '@monorepo/utils'
-import { ref } from 'vue'
-const num1 = ref(5)
-const num2 = ref(3)
-const sum = ref(add(num1.value, num2.value))
-const difference = ref(subtract(num1.value, num2.value))
+  import HelloWorld from './components/HelloWorld.vue';
+  import { add, subtract } from '@bzehua/utils';
+  import { ref } from 'vue';
+  const num1 = ref(5);
+  const num2 = ref(3);
+  const sum = ref(add(num1.value, num2.value));
+  const difference = ref(subtract(num1.value, num2.value));
 </script>
 
 <template>
@@ -26,16 +26,16 @@ const difference = ref(subtract(num1.value, num2.value))
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.vue:hover {
+    filter: drop-shadow(0 0 2em #42b883aa);
+  }
 </style>

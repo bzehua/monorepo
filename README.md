@@ -51,3 +51,5 @@ pnpm dev
   ```bash
   pnpm --filter @monorepo/app dev
   ```
+
+tsconfig.base.json - 共享 TypeScript 配置 .eslintrc.js - 统一 ESLint 规则 .prettierrc - 代码格式化规则

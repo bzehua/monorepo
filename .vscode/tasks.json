@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build All",
+      "type": "shell",
+      "command": "pnpm",
+      "args": ["build"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Lint & Format",
+      "type": "shell",
+      "command": "pnpm",
+      "args": ["code-fix"],
+      "group": "build"
+    },
+    {
+      "label": "Check Code Quality",
+      "type": "shell",
+      "command": "pnpm",
+      "args": ["code-quality"],
+      "group": "test"
+    }
+  ]
+}
