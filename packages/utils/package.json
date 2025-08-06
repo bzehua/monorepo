@@ -1,7 +1,23 @@
 {
   "name": "@bzehua/utils",
   "version": "1.0.0",
+  "private": false,
   "type": "module",
+  "description": "Shared utility functions for bzehua projects",
+  "keywords": [
+    "utils",
+    "typescript"
+  ],
+  "author": "bzehua",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bzehua/monorepo.git",
+    "directory": "packages/utils"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
@@ -11,8 +27,6 @@
     "lint:check": "eslint src",
     "format": "prettier --write src",
     "format:check": "prettier --check src",
-    "code-quality": "pnpm lint:check && pnpm format:check",
-    "code-fix": "pnpm format && pnpm lint",
     "test": "jest"
   },
   "dependencies": {},

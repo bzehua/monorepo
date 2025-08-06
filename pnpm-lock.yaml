@@ -39,7 +39,7 @@ importers:
         specifier: ^1.1.6
         version: 1.1.6
       typescript:
-        specifier: ^5.0.0
+        specifier: ^5.9.2
         version: 5.9.2
 
   apps/app:
