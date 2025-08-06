@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/vue3demo",
+  "name": "@bzehua/vueapp",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@monorepo/utils": "workspace:*",
+    "@bzehua/utils": "workspace:*",
     "vue": "^3.5.17"
   },
   "devDependencies": {
